@@ -14,24 +14,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--Foglio CSS  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
     <!-- ? Fine links -->
 
     <title>HELBIZ</title>
 </head>
+
+<!-- ????????????????????????  BODY -->
 <body>
     <!-- Header -->
-    <header>
-       
+    <header class="bgc_primary width">
+        <div class="header_top">
+            <div class="header_logo">
+                <img src="img/logo.svg" alt="">
+            </div>
+            <div class="header_nav clearfix">
+                <div class="heaedr_burg_container">
+                    <button class="header_burger not_btn">
+                       <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <nav class="header_nav_dx">
+                    <ul>
+                        <li>
+                            <a href="#mobility"> Mobility</a>
+                        </li>
+                        <li>
+                            <a href=#kitchen>Helbiz kitchen</a>
+                        </li>
+                        <li>
+                            <a href=#my_helbiz>My helbitz</a>
+                        </li>
+                        <li>
+                            <a href="unlimeted">Unlimeted</a>
+                        </li>
+                        <li>
+                            <a href=#about>About</a>
+                        </li>
+                    </ul>
+                </nav>  
+                <div class="header_nav_sx">
+                    <button  class="not_btn margL_15" id="language_option">
+                        ENG <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <button class="btn_login not_btn margL_15">
+                        Login
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="jumbotron">
+            <h1> <br><br><br>
+                Mobility of Tomorrow</h1>
+            <!-- <img src="img/hero.jpg" alt=""> -->
+        </div>
     </header>
 
     <!-- Main -->
     <main>
+        <section id="options">
+            <div class="vertical_box">
+                <h3><span class="helbiz">Helbiz</span> go</h3>
+                <p>Seamless E-Scooter sharing globally</p>
+                <a href="">
+                    Learn more 
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <img src="img/helbizgo.png" alt="">
+            </div>
 
+        </section>
+        <section id="phone_divider"></section>
+        <section id="main_boxes"></section>
     </main>
 
     <!-- Footer -->
     <footer>
-
+        <section id="footer_nav"></section>
+        <section id="footest">
+            <div class="social_list">
+            </div>
+            <div class="download_list">
+            </div>
+            <div class="legal">
+                <ul>
+                    <li>
+                        <i class="far fa-copyright"></i>2021 Helbiz
+                    </li>
+                    <li>
+                        <a href="">Terms & Conditions</a>
+                    </li>
+                    <li>
+                        <a href="">Press & News</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

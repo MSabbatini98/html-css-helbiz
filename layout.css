@@ -1,0 +1,66 @@
+@media screen and (max-width: 1023px) {
+    body {
+        background-color: yellow;
+    }
+    header .header_top{
+        padding: 0 24px;
+    }
+    header .header_nav_sx, 
+    header .header_nav_dx{
+        display: none;
+        height: 64px;
+    }
+    header .header_burger{
+        display: visible;
+        background-color: inherit;
+        border: none;
+    }
+}
+
+/* Mobile layout  0-640px */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: yellow;
+    }
+    header .header_top{
+        padding: 0 24px;
+    }
+    header .header_nav_sx, 
+    header .header_nav_dx{
+        display: none;
+        height: 64px;
+    }
+    header .header_burger{
+        display: visible;
+        background-color: inherit;
+        border: none;
+    }
+}
+
+/* Tablet layout  640-768px */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Tablet layout 768-1024px */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: black;
+    }
+    header .header_nav_sx, 
+    header .header_nav_dx{
+        display: inline-block;
+    }
+    header .header_burger{
+        display: none;
+    }
+}
+
+/* Tablet layout  1024px */
+@media screen and (min-width: 1392px){
+    body {
+        background-color: blue;
+    }
+}
