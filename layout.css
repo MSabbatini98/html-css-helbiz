@@ -12,15 +12,24 @@
     h1{
         font-size: 60px;
     }
+    h2{
+        font-size: 30px;
+    }
     header .jumbotron {
         width: 100%;
-        transition-property: transform;
-        transform: translateX(0px);
+        overflow-x: scroll;
     }
     header .jumbo_img{
         overflow-x: scroll;
         height: 700px;
         width: initial;
+    }
+    #nasdaq .box{
+        width: 90%;
+        margin: auto;
+    }
+    #nasdaq h2{
+        padding: 25px 35px;
     }
 }
 
@@ -34,9 +43,7 @@
     h1{
         font-size: 72px;
     }
-    header .header_top{
-        padding: 0 24px;
-    }
+
     header .header_nav_sx, 
     header .header_nav_dx{
         display: none;
@@ -46,6 +53,10 @@
         display: visible;
         background-color: inherit;
         border: none;
+    }
+    #nasdaq .box{
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -57,9 +68,17 @@
     h1{
         font-size: 84px;
     }
+    h2{
+        font-size: 36px;
+    }
     header .jumbotron img{
         width: 100%;
         height: auto;
+    }
+    #nasdaq .box{
+        width: 762px;
+        margin: auto;
+            /* background-color: khaki; */
     }
 }
 
@@ -78,6 +97,20 @@
     header .header_burger{
         display: none;
     }
+    #nasdaq .box{
+        position: relative;
+        width: 900px;
+        margin: auto;
+            /* background-color: papayawhip; */
+    }
+    #nasdaq .img_box {
+        width: 45%;
+        float: right;
+    }
+    #nasdaq .text_box {
+        width: 55%;
+        float: left;
+    }
 }
 
 /* Tablet layout SUPERIORE a 1392px */
@@ -87,5 +120,21 @@
     }
     h1{
         font-size: 120px;
+    }
+    #nasdaq .box{
+        width: 90%;
+        background-color: greenyellow;
+    }
+    #nasdaq .img_box {
+        width: 50%;
+        float: right;
+        
+    }
+    #nasdaq .text_box {
+        width: 50%;
+        float: left;
+    }
+    #nasdaq h2{
+        margin-top: 50px;
     }
 }

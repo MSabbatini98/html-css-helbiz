@@ -10,15 +10,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    /* background-color: cornflowerblue; */
+    color: #212529;
 }
+    /* background-color: cornflowerblue; */
 h1{
     text-align: center;
+}
+h2{
+    line-height: 45px;
 }
 h3{
     text-transform: uppercase;
 }
-
+a {
+    text-decoration: none;
+}
 /* Shortcuts */
     /* Colors */
 .bgc_primary {
@@ -50,11 +56,30 @@ img{
     padding: 0;
     margin: 0;
 }
+.box{
+    background-color: #fafafa;
+    /* background-color: red; */
+}
+
     /*Margin and Paddings  */
+.marg_20{
+    margin:20px;
+}
 .margL_15{
     margin-left: 15px;
 }
-
+.margB_30{
+    margin-bottom: 30px;
+}
+.margT_30{
+    margin-top: 30px;
+}
+.pddLR_24{
+    padding: 0 24px;
+}
+.pdd_32{
+    padding: 32px;
+}
 
 /* General */
 /* ************************** HEADER */
@@ -64,7 +89,7 @@ header{
 header .header_top{
     width: 100%;
     padding: 0 24px;
-        border: solid red 3px;
+        /* border: solid red 3px; */
 }
 header .header_nav{
     float: right;
@@ -94,7 +119,6 @@ header .header_top nav li{
 header a{
     color: currentColor;
     font-weight: 600;
-    text-decoration: none;
     padding: 8px;
 }
 header .header_logo img{
@@ -117,6 +141,32 @@ header .btn_login{
     letter-spacing: 0px;
 }
 
+
+/* **************************SECTION 1 NASDAQ    */
+#nasdaq {
+    background-color:purple;
+    margin: auto;
+
+}
+/* **************************SECTION 2 OPTIONS    */
+/* **************************SECTION 3 PHONE DIVIDER    */
+/* **************************SECTION 4 MAIN BOXES   */
+/* **************************FOOTER         */
+
+
+
+
+
+
+
+
+.learn_more{
+    font-size: 20px;
+    color: rgb(0, 112, 200);
+}
+.learn_more::after{
+    content: ' \276F';
+}
 .clearfix{
     content: "";
     display: block;
