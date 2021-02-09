@@ -65,6 +65,9 @@ img{
 .marg_20{
     margin:20px;
 }
+.margTB_30{
+    margin: 20px 0;
+}
 .margL_15{
     margin-left: 15px;
 }
@@ -144,11 +147,12 @@ header .btn_login{
 
 /* **************************SECTION 1 NASDAQ    */
 #nasdaq {
-    background-color:purple;
+    height: 1000px; /*PERCHE'?!?*/
+        background-color:purple;
     margin: auto;
-
 }
 /* **************************SECTION 2 OPTIONS    */
+
 /* **************************SECTION 3 PHONE DIVIDER    */
 /* **************************SECTION 4 MAIN BOXES   */
 /* **************************FOOTER         */
@@ -163,6 +167,7 @@ header .btn_login{
 .learn_more{
     font-size: 20px;
     color: rgb(0, 112, 200);
+    padding: 0 0 0 35px;
 }
 .learn_more::after{
     content: ' \276F';
