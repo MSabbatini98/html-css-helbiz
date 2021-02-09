@@ -31,7 +31,10 @@
     #nasdaq h2{
         padding: 25px 35px;
     }
-
+    .vertical_box{
+        width: 90%;
+        margin: auto;
+    }
 }
 
 
