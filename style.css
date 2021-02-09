@@ -42,9 +42,7 @@ a {
     max-width: 1392px;
     margin: auto;
 }
-img{
-    width: 100%;
-}
+
 .not_btn{
     border: none;
     font: inherit;
@@ -151,6 +149,9 @@ header .btn_login{
         background-color:purple;
     margin: auto;
 }
+#nasdaq img{
+    width: 100%;
+}
 /* **************************SECTION 2 OPTIONS    */
 #options {
     text-align: center;
@@ -161,20 +162,58 @@ header .btn_login{
     width: auto;
 
 }
-.vertical_box{
+#options .vertical_box{
     width: calc((100% - 110px)/3);
     display: inline-block;
+    height: 900px;
     margin: 15px;
+    /* vertical-align: bottom; */
+    border: solid 3px orange;    
 }
-
+#option img{
+    width: fit-content;
+}
 /* **************************SECTION 3 PHONE DIVIDER    */
 #phone_divider *{
     border: 2px greenyellow;
 
 }
 /* **************************SECTION 4 MAIN BOXES   */
-/* **************************FOOTER         */
 
+/* **************************FOOTER         */
+footer{
+    background-color: black;
+}
+footer .white_logo{
+    height: 20px;
+    width: auto;
+}
+footer h5 {
+    text-transform: capitalize;
+    font: 25px;
+    border: 1px solid white;
+
+}
+footer a{
+    color: white;
+    font: 16px;
+}
+footer .download_list img{
+    height: 30px;
+    width: auto;
+}
+footer .footer_box_list{
+    border: white;
+}
+footer .column {
+    width: 25%;
+    display: inline-block;
+    border: white;
+
+}
+footer .footer_box_sx{
+    border: solid 3px red;
+}
 
 
 
